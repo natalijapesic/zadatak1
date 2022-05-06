@@ -1,0 +1,64 @@
+body{
+
+    background-color: rgb(182, 176, 176);
+}
+
+.filterBar{
+    min-width: 250px;
+    margin-right: 50;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(207, 70, 219);
+    margin: 5px;
+}
+
+.infoDiv{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    padding: 10px;
+}
+
+.space{
+    flex-grow: 2;
+}
+
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.homePage{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(207, 70, 219);
+    height: 70px;
+    color: white;
+
+}
+
+.headerSpace{
+    flex-grow: 2;
+}
+
+.page{
+    display: flex;
+}
