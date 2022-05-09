@@ -9,8 +9,7 @@ body{
 }
 
 img{
-    width: 250px;
-    height: 250px;
+    max-width: 100%;
 }
 
 .logo{
@@ -23,6 +22,8 @@ img{
     flex-direction: column;
     border: 1px solid rgb(207, 70, 219);
     margin: 5px;
+    max-width: 250px;
+    justify-content: center;
 }
 
 .infoDiv{
